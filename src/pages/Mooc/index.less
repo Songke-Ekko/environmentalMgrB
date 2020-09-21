@@ -1,0 +1,51 @@
+.mainBox {
+  background: #83BECB;
+  height: 100%;
+  .header {
+    text-align: center;
+    padding-top: 12px;
+    span {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      color: #E6E6E6;
+      margin-right: 8px;
+    }
+    img {
+      width: 36px;
+      margin-right: 8px;
+    }
+  }
+  .middleContent {
+    text-align: center;
+    margin-top: 36px;
+  }
+  p {
+    text-align: center;
+    color: #E6E6E6;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  @keyframes myMove{
+    from {
+        height: 0px;
+    }
+    to {
+        height: 40px;
+    }
+  }
+  .enter {
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+    width: 40px;
+    animation: myMove 1.2s infinite;
+    cursor: pointer;
+  }
+  .title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 50px;
+  }
+}
