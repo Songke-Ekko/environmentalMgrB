@@ -1,11 +1,10 @@
 import React, { Fragment } from 'react';
 
 const WorkSpace = (props) => {
-  console.log(props);
   return (
     <Fragment>
       <div>
-        123
+        123456
       </div>
     </Fragment>
   );
